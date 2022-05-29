@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{6442451b-adcb-4296-9104-ee3da4996bf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{a30b9890-f8e4-49e7-a077-54bfa8891cc6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h" />
+    <ClInclude Include="injectorUI.h" />
+    <ClInclude Include="injector.h" />
+    <ClInclude Include="..\common\compiletime.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\dbvm.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\defclass.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\encrypt_string.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\exception.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\fixed_string.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\hash_switch.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\ida_defs.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\initializer.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\kernel.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\msrnames.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\obcallback.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\patternscan.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\peb.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\physicalmemory.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\process.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\remoteprocess.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\shellcode.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\harderror.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\lambda.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\function_ref.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\util.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\render.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\render_dcomp.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\render_ddraw.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\json.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\wininet.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\download.h">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="injectorUI.cpp" />
+    <ClCompile Include="winmain.cpp" />
+    <ClCompile Include="..\imgui\imgui_impl_dx11_custom.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\render.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="..\common\dbvm_.asm">
+      <Filter>common</Filter>
+    </MASM>
+    <MASM Include="..\common\kernel_.asm">
+      <Filter>common</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
